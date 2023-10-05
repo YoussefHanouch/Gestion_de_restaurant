@@ -1,0 +1,70 @@
+
+export  const table =[
+    {id:"Table 1",statu:"Reservée"},
+    {id:"Table 2", statu:"Disponible"},
+    {id:"Table 3" , statu:"Disponible"},
+    {id:"Table 4" , statu:"Reservée"}, 
+    {id:"Table 5" , statu:"Disponible"}, 
+    {id:"Table 6",statu:"Disponible"},
+    {id:"Table 7", statu:"Disponible"},
+    {id:"Table 8" , statu:"Disponible"},
+    {id:"Table 9" , statu:"Disponible"}, 
+    {id:"Table 10", statu:"Disponible"},
+    {id:"Table 11",statu:"Disponible"},
+    {id:"Table 12", statu:"personnes-assis"},
+    {id:"Table 13" , statu:"Disponible"},
+    {id:"Table 14" , statu:"Disponible"}, 
+    {id:"Table 15",statu:"Disponible"},
+    {id:"Table 16", statu:"Disponible"},
+    {id:"Table 17" , statu:"Disponible"},
+    {id:"Table 18" , statu:"Reservée"}, 
+    {id:"Table 19" , statu:"Disponible"}, 
+    {id:"Table 20",statu:"Disponible"},
+    {id:"Table 21", statu:"Disponible"},
+    {id:"Table 22" , statu:"Disponible"},
+    {id:"Table 23" , statu:"Disponible"}, 
+    {id:"Table 24", statu:"Disponible"},
+    {id:"Table 25",statu:"Disponible"},
+    {id:"Table 26", statu:"Disponible"},
+    {id:"Table 27" , statu:"Disponible"},
+    {id:"Table 28" , statu:"personnes-assis"}, 
+    {id:"Table 29" , statu:"Disponible"},
+    {id:"Table 30" , statu:"Disponible"}, 
+    
+
+];
+
+
+export const Categories_produits=[{categorie:"Pizza",produits:[
+    {id:1,nom:"DOUBLE CHEESE PIZZA",prix:"100",stock:"10",img:"https://i.pinimg.com/564x/8d/7c/57/8d7c5787145d1a4c4973e7a7f0cf589c.jpg",variant:[{type:"Small",prix:"50"},{type:"Medium",prix:"80"},{type:"Large",prix:"150"}]},
+    {id:2,nom:"VEG. CHEESE PIZZA",prix:"100",stock:"10",img:"https://i.pinimg.com/564x/ab/f5/a4/abf5a42ae9b11dc30f271862844237bd.jpg",variant:[{type:"Small",prix:"50"},{type:"Medium",prix:"80"},{type:"Large",prix:"160"}]},
+    {id:3,nom:"MOZZARELLA VEG. CHEESE PIZZA",prix:"100",stock:"10",img:"https://i.pinimg.com/564x/e2/b5/68/e2b568b3ac874ed54a451844260d76a9.jpg",variant:[{type:"Small",prix:"50"},{type:"Medium",prix:"80"},{type:"Large",prix:"150"}]},
+    {id:4,nom:"SPECIAL PIZZA",prix:"100",stock:"10",img:"https://i.pinimg.com/564x/6a/fd/32/6afd32f00991530db94f6f274d3eb4af.jpg",variant:[{type:"Small",prix:"50"},{type:"Medium",prix:"80"},{type:"Large",prix:"150"}]},
+    {id:5,nom:"CHEESE PIZZA",prix:"100",stock:"10",img:"https://i.pinimg.com/564x/a3/27/9d/a3279d3337e4507ed4a47f62078f3408.jpg",variant:[{type:"Small",prix:"50"},{type:"Medium",prix:"80"},{type:"Large",prix:"150"}]},
+    {id:6,nom:"PANNER PIZZA",prix:"20",stock:"10",img:"https://i.pinimg.com/564x/dc/3a/38/dc3a384f307e3597281eb3803abb36ba.jpg",variant:[{type:"Small",prix:"50"},{type:"Medium",prix:"80"},{type:"Large",prix:"150"}]},
+    {id:7,nom:"SCHEZWAN PIZZA",prix:"15",stock:"10",img:"https://i.pinimg.com/564x/6a/74/38/6a7438acd4df266537e0f39d0d632273.jpg",variant:[{type:"Small",prix:"50"},{type:"Medium",prix:"80"},{type:"Large",prix:"150"}]},
+    {id:8,nom:"JAIN PIZZA",prix:"13",stock:"10",img:"https://i.pinimg.com/564x/b6/08/f9/b608f9c19cb768b97f9b78fe08966eeb.jpg",variant:[{type:"Small",prix:"50"},{type:"Medium",prix:"80"},{type:"Large",prix:"150"}]},
+    {id:9,nom:"MUSHROOM MOZZARELLA PIZZA",prix:"10",stock:"10",img:"https://i.pinimg.com/564x/15/4d/f5/154df5f439c5d965daaa342f2b13f16e.jpg",variant:[{type:"Small",prix:"50"},{type:"Medium",prix:"80"},{type:"Large",prix:"150"}]},
+]},{categorie:"Sandwiches",produits:[
+    {id:1,nom:"JAIN VEG.CHEESE GRILL",prix:"100",stock:"10",img:"/images/sandwitch1.png",variant:[{type:"Small",prix:"30"},{type:"Medium",prix:"50"},{type:"Large",prix:"70"}]},
+    {id:2,nom:"CHUTNEY GRILL",prix:"100",stock:"10",img:"/images/sandwitch1.png",variant:[{type:"Small",prix:"30"},{type:"Medium",prix:"50"},{type:"Large",prix:"70"}]},
+    {id:3,nom:"BREAD BUTTER GRILL",prix:"100",stock:"10",img:"/images/sandwitch1.png",variant:[{type:"Small",prix:"30"},{type:"Medium",prix:"50"},{type:"Large",prix:"70"}]},
+    {id:4,nom:"BREAD BUTTER JAM GRILL",prix:"100",stock:"10",img:"/images/sandwitch1.png",variant:[{type:"Small",prix:"30"},{type:"Medium",prix:"50"},{type:"Large",prix:"70"}]},
+    {id:5,nom:"CHILLY CHEESE GRILL",prix:"100",stock:"10",img:"/images/sandwitch1.png",variant:[{type:"Small",prix:"30"},{type:"Medium",prix:"50"},{type:"Large",prix:"70"}]},
+    {id:6,nom:"NUTELLA GRILL",prix:"20",stock:"10",img:"/images/sandwitch1.png",variant:[{type:"Small",prix:"30"},{type:"Medium",prix:"50"},{type:"Large",prix:"70"}]},
+    {id:7,nom:"BHAJI CHEESE GRILL",prix:"15",stock:"10",img:"/images/sandwitch1.png",variant:[{type:"Small",prix:"30"},{type:"Medium",prix:"50"},{type:"Large",prix:"70"}]},
+    {id:8,nom:"PANEER BHAJI GRILL",prix:"13",stock:"10",img:"/images/sandwitch1.png",variant:[{type:"Small",prix:"30"},{type:"Medium",prix:"50"},{type:"Large",prix:"70"}]},
+    {id:9,nom:"VEG. CHEESE GRILL",prix:"10",stock:"10",img:"/images/sandwitch1.png",variant:[{type:"Small",prix:"30"},{type:"Medium",prix:"50"},{type:"Large",prix:"70"}]},
+]},{categorie:"Milkshakes",produits:[
+    {id:1,nom:"COLD COFFEE WITH ICE CREAM",prix:"100",stock:"10",img:"https://i.pinimg.com/564x/33/89/ec/3389ec589974369e6ef55cf921b24fe2.jpg"},
+    {id:2,nom:"VANILLA WITH ICE CREAM",prix:"100",stock:"10",img:"https://i.pinimg.com/564x/d4/be/d7/d4bed720f40b82807f783dee1c3d81c6.jpg"},
+    {id:3,nom:"MANGO MILKSHAKE",prix:"100",stock:"10",img:"https://i.pinimg.com/564x/21/0d/28/210d289229650f8c3e3d424d91a19c57.jpg"},
+    {id:4,nom:"MANGO FALOODA",prix:"100",stock:"10",img:"https://i.pinimg.com/564x/fd/cf/79/fdcf796218c770e163c09fa92ec8e7df.jpg"},
+    {id:5,nom:"CHICKOO",prix:"100",stock:"10",img:"https://i.pinimg.com/564x/ab/a7/80/aba780b0b3fe8dfbdb7c288c5fc1f765.jpg"},
+    {id:6,nom:"OREO MILKSHAKE STRAWBERRY",prix:"20",stock:"10",img:"https://i.pinimg.com/564x/51/27/17/5127177d94e8eff5a9ecb044055ae1e8.jpg"},
+    {id:7,nom:"OREO MILKSHAKE CHOCOLATE",prix:"15",stock:"10",img:"https://i.pinimg.com/564x/cd/c4/c9/cdc4c9f3bd7e627dd681c46764a499bd.jpg"},
+    {id:8,nom:"ORABGE JUICE",prix:"13",stock:"10",img:"https://i.pinimg.com/564x/dd/de/40/ddde40594c91865273bfacff2e80cc1b.jpg"},
+    {id:9,nom:"CHOCOLATE WITH ICE CREAM",prix:"10",stock:"10",img:"https://i.pinimg.com/564x/3e/0a/dc/3e0adcc9d7aafa192d11025429c0ea74.jpg"},
+    
+    
+]}]
